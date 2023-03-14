@@ -1707,13 +1707,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82a529b6229f342c4b66e861610803b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpForce: 4.5
-  grounded: 0
+  jumpForce: 2.5
+  jumpTime: 0.25
   groundCheck: {fileID: 1683971435}
   radOCircle: 0.06
   whatIsGround:
     serializedVersion: 2
     m_Bits: 256
+  grounded: 0
 --- !u!1 &712383360
 GameObject:
   m_ObjectHideFlags: 0
